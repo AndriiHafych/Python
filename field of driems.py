@@ -1,6 +1,7 @@
-guess_word = 'tomorrow'
+guess_word = 'to'
+const = guess_word
 under_ = list(len(guess_word)*'_')
-while under_ != guess_word:
+while ''.join(under_) != const:
     guess = input('try')
     while guess in guess_word:
         under_[guess_word.find(guess)] = guess
