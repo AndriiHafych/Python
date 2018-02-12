@@ -1,4 +1,4 @@
-guess_word = 'somewordqwerty
+guess_word = 'somewordqwerty'
 const = guess_word
 under_ = list(len(guess_word)*'_')
 while ''.join(under_) != const:
